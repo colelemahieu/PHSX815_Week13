@@ -39,7 +39,7 @@ c1_y=6
 c2_x=6
 c2_y=8
 
-iterations = 3
+iterations = 4
 for k in range(0,iterations):
     cluster1_x = []
     cluster1_y = []
