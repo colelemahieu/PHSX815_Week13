@@ -39,7 +39,7 @@ c1_y=6
 c2_x=6
 c2_y=8
 
-# print the guess
+# print the real center value
 print("The real centers are at (9,9) and (6,6)")
 
 iterations = 4
