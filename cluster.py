@@ -39,6 +39,9 @@ c1_y=6
 c2_x=6
 c2_y=8
 
+# print the guess
+print("The real centers are at (9,9) and (6,6)")
+
 iterations = 4
 for k in range(0,iterations):
     cluster1_x = []
@@ -68,6 +71,9 @@ for k in range(0,iterations):
     c1_y = float(y1_total) / len(cluster1_y)
     c2_x = float(x2_total) / len(cluster2_x)
     c2_y = float(y2_total) / len(cluster2_y)
+
+# print calculated values
+print("The calculated centers are at (%f, %f) and (%f, %f)" %(c1_x, c1_y, c2_x, c2_y))
     
 
 # plotting
